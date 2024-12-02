@@ -1,0 +1,253 @@
+{
+  "data": [
+    {
+      "type": "queue",
+      "id": "28439a16-c0d9-ef52-e063-b4200a0aa119",
+      "attributes": {
+        "case": 1,
+        "benefit": "PORADNIA STOMATOLOGICZNA DLA DZIECI",
+        "many-places": "N",
+        "provider": "DIRECTMEDIC GABINETY STACJONARNE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+        "provider-code": "3102201",
+        "regon-provider": "52814808200015",
+        "nip-provider": "8971935660",
+        "teryt-provider": "0225021",
+        "place": "PORADNIA STOMATOLOGICZNA DLA DZIECI - ŚWIADCZENIA UDZIELANE W GABINECIE SZKOLNYM",
+        "address": "UL. BOLESŁAWA PRUSA 17",
+        "locality": "ZGORZELEC",
+        "phone": "+48 505 979 730",
+        "teryt-place": "0225021",
+        "registry-number": "000000274908-W-02",
+        "id-resort-part-VII": "001",
+        "id-resort-part-VIII": "1801",
+        "benefits-for-children": "Y",
+        "covid-19": "N",
+        "toilet": "N",
+        "ramp": "N",
+        "car-park": "N",
+        "elevator": "N",
+        "latitude": 51.15640360,
+        "longitude": 15.00451270,
+        "statistics": {
+          "provider-data": {
+            "awaiting": 0,
+            "removed": 0,
+            "average-period": 0,
+            "update": "2024-10"
+          },
+          "computed-data": null
+        },
+        "dates": {
+          "applicable": true,
+          "date": "2024-11-26",
+          "date-situation-as-at": "2024-11-26"
+        },
+        "benefits-provided": null
+      }
+    },
+    {
+      "type": "queue",
+      "id": "28439a17-1739-ef52-e063-b4200a0aa119",
+      "attributes": {
+        "case": 1,
+        "benefit": "PORADNIA STOMATOLOGICZNA DLA DZIECI",
+        "many-places": "Y",
+        "provider": "DIRECTMEDIC",
+        "provider-code": "3122193",
+        "regon-provider": "38954388000018",
+        "nip-provider": "8971894228",
+        "teryt-provider": "0264011",
+        "place": "PORADNIA STOMATOLOGICZNA DLA DZIECI - ŚWIADCZENIA UDZIELANE W GABINECIE SZKOLNYM",
+        "address": "UL. ALEJA JANA PAWŁA II 25",
+        "locality": "JELENIA GÓRA",
+        "phone": "+48 505 979 788",
+        "teryt-place": "0261011",
+        "registry-number": "000000242475-W-02",
+        "id-resort-part-VII": "003",
+        "id-resort-part-VIII": "1801",
+        "benefits-for-children": "Y",
+        "covid-19": "N",
+        "toilet": "N",
+        "ramp": "N",
+        "car-park": "N",
+        "elevator": "N",
+        "latitude": 50.91231910,
+        "longitude": 15.74441530,
+        "statistics": {
+          "provider-data": {
+            "awaiting": 0,
+            "removed": 0,
+            "average-period": 0,
+            "update": "2024-10"
+          },
+          "computed-data": null
+        },
+        "dates": {
+          "applicable": true,
+          "date": "2024-11-26",
+          "date-situation-as-at": "2024-11-26"
+        },
+        "benefits-provided": null
+      }
+    },
+    {
+      "type": "queue",
+      "id": "28439a17-21a3-ef52-e063-b4200a0aa119",
+      "attributes": {
+        "case": 1,
+        "benefit": "PORADNIA STOMATOLOGICZNA DLA DZIECI",
+        "many-places": "Y",
+        "provider": "DIRECTMEDIC",
+        "provider-code": "3122193",
+        "regon-provider": "38954388000018",
+        "nip-provider": "8971894228",
+        "teryt-provider": "0264011",
+        "place": "PORADNIA STOMATOLOGICZNA DLA DZIECI - ŚWIADCZENIA UDZIELANE W GABINECIE SZKOLNYM",
+        "address": "UL. TATRZAŃSKA 9",
+        "locality": "LEGNICA",
+        "phone": "+48 505 979 711",
+        "teryt-place": "0262011",
+        "registry-number": "000000242475-W-02",
+        "id-resort-part-VII": "002",
+        "id-resort-part-VIII": "1801",
+        "benefits-for-children": "Y",
+        "covid-19": "N",
+        "toilet": "N",
+        "ramp": "N",
+        "car-park": "N",
+        "elevator": "N",
+        "latitude": 51.19802630,
+        "longitude": 16.20698660,
+        "statistics": {
+          "provider-data": {
+            "awaiting": 0,
+            "removed": 0,
+            "average-period": 0,
+            "update": "2024-10"
+          },
+          "computed-data": null
+        },
+        "dates": {
+          "applicable": true,
+          "date": "2024-11-26",
+          "date-situation-as-at": "2024-11-26"
+        },
+        "benefits-provided": null
+      }
+    },
+    {
+      "type": "queue",
+      "id": "28439a14-a0d5-ef52-e063-b4200a0aa119",
+      "attributes": {
+        "case": 1,
+        "benefit": "FIZJOTERAPIA DOMOWA",
+        "many-places": "N",
+        "provider": "ZESPÓŁ OPIEKI ZDROWOTNEJ W ŚWIĘTEJ KATARZYNIE",
+        "provider-code": "3101008",
+        "regon-provider": "930393011",
+        "nip-provider": "8961174521",
+        "teryt-provider": "0223085",
+        "place": "DZIAŁ (PRACOWNIA) FIZJOTERAPII",
+        "address": "UL. STEFANA ŻEROMSKIEGO 1",
+        "locality": "ŚWIĘTA KATARZYNA",
+        "phone": "+48 71 722 41 58",
+        "teryt-place": "0223085",
+        "registry-number": "000000001354-W-02",
+        "id-resort-part-VII": "035",
+        "id-resort-part-VIII": "1310",
+        "benefits-for-children": "Y",
+        "covid-19": "N",
+        "toilet": "Y",
+        "ramp": "Y",
+        "car-park": "Y",
+        "elevator": "Y",
+        "latitude": null,
+        "longitude": null,
+        "statistics": {
+          "provider-data": {
+            "awaiting": 0,
+            "removed": 1,
+            "average-period": 4,
+            "update": "2024-11"
+          },
+          "computed-data": null
+        },
+        "dates": {
+          "applicable": true,
+          "date": "2024-11-26",
+          "date-situation-as-at": "2024-11-26"
+        },
+        "benefits-provided": null
+      }
+    },
+    {
+      "type": "queue",
+      "id": "28439a14-a0c3-ef52-e063-b4200a0aa119",
+      "attributes": {
+        "case": 1,
+        "benefit": "PORADNIA POŁOŻNICZO-GINEKOLOGICZNA",
+        "many-places": "N",
+        "provider": "ZESPÓŁ OPIEKI ZDROWOTNEJ W ŚWIĘTEJ KATARZYNIE",
+        "provider-code": "3101008",
+        "regon-provider": "930393011",
+        "nip-provider": "8961174521",
+        "teryt-provider": "0223085",
+        "place": "PORADNIA POŁOŻNICZO-GINEKOLOGICZNA",
+        "address": "UL. STEFANA ŻEROMSKIEGO 1",
+        "locality": "ŚWIĘTA KATARZYNA",
+        "phone": "+48 71 311 62 99",
+        "teryt-place": "0223085",
+        "registry-number": "000000001354-W-02",
+        "id-resort-part-VII": "003",
+        "id-resort-part-VIII": "1450",
+        "benefits-for-children": "Y",
+        "covid-19": "N",
+        "toilet": "Y",
+        "ramp": "Y",
+        "car-park": "Y",
+        "elevator": "Y",
+        "latitude": null,
+        "longitude": null,
+        "statistics": {
+          "provider-data": {
+            "awaiting": 0,
+            "removed": 0,
+            "average-period": 28,
+            "update": "2024-10"
+          },
+          "computed-data": null
+        },
+        "dates": {
+          "applicable": true,
+          "date": "2024-11-26",
+          "date-situation-as-at": "2024-11-26"
+        },
+        "benefits-provided": null
+      }
+    }
+  ],
+  "links": {
+    "first": "/app-itl-api/queues?page=1&limit=5&format=json&case=1&province=01",
+    "prev": null,
+    "self": "/app-itl-api/queues?page=1&limit=5&format=json&case=1&province=01",
+    "next": "/app-itl-api/queues?page=2&limit=5&format=json&case=1&province=01",
+    "last": "/app-itl-api/queues?page=302&limit=5&format=json&case=1&province=01"
+  },
+  "meta": {
+    "context": "https://api.nfz.gov.pl/app-itl-api/schemas/#queue",
+    "count": 1507,
+    "title": "queue",
+    "page": 1,
+    "url": "https://api.nfz.gov.pl/app-itl-api/schema/queue",
+    "limit": 5,
+    "provider": "Narodowy Fundusz Zdrowia",
+    "date-published": "2019-02-26T10:49:23+01:00",
+    "date-modified": "2024-12-02T23:27:28+01:00",
+    "description": "Zasób zwraca pierwszy dostępny termin leczenia dla każdego świadczenia medycznego zgodnie z wybranymi parametrami wyszukiwania. Odpowiedź zawiera szczegółowe informacje  oraz listę świadczeń medycznych we właściwej kolejności wyświetlania (według pierwszej dostępnego terminu leczenia)",
+    "keywords": "kolejki,terminy leczenia,Narodowy Fundusz Zdrowia,termin,lekarz,poradnia,przychodnia,leczenie,terminy,wolne terminy",
+    "language": "PL",
+    "content-type": "application/json; charset=utf-8",
+    "is-part-of": "Terminy leczenia",
+    "message": null
+  }
+}
