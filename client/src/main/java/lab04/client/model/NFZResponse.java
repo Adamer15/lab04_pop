@@ -40,7 +40,6 @@ public class NFZResponse {
         @JsonProperty("limit")
         private int limit;
 
-        // Gettery i settery
         public int getCount() {
             return count;
         }

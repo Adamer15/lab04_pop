@@ -1,125 +1,71 @@
 package lab04.client.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import javafx.beans.property.*;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class QueueEntry {
+    private final StringProperty provider = new SimpleStringProperty();
+    private final StringProperty locality = new SimpleStringProperty();
+    private final StringProperty benefit = new SimpleStringProperty();
+    private final IntegerProperty queueLength = new SimpleIntegerProperty();
+    private final IntegerProperty waitingTime = new SimpleIntegerProperty();
 
-    @JsonProperty("type")
-    private String type;
-
-    @JsonProperty("id")
-    private String id;
-
-    @JsonProperty("attributes")
-    private Attributes attributes;
-
-    public String getType() {
-        return type;
+    public StringProperty providerProperty() {
+        return provider;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public String getProvider() {
+        return provider.get();
     }
 
-    public String getId() {
-        return id;
+    public void setProvider(String provider) {
+        this.provider.set(provider);
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public StringProperty localityProperty() {
+        return locality;
     }
 
-    public Attributes getAttributes() {
-        return attributes;
+    public String getLocality() {
+        return locality.get();
     }
 
-    public void setAttributes(Attributes attributes) {
-        this.attributes = attributes;
+    public void setLocality(String locality) {
+        this.locality.set(locality);
     }
 
-    @Override
-    public String toString() {
-        return String.format("Placówka: %s, Usługa: %s, Czas oczekiwania: %d dni, Długość kolejki: %d osób",
-                attributes.getProvider(),
-                attributes.getBenefit(),
-                attributes.getStatistics() != null ? attributes.getStatistics().getProviderData().getAveragePeriod() : 0,
-                attributes.getStatistics() != null ? attributes.getStatistics().getProviderData().getAwaiting() : 0);
+    public StringProperty benefitProperty() {
+        return benefit;
     }
 
-    @JsonIgnoreProperties(ignoreUnknown = true)
-    public static class Attributes {
-        @JsonProperty("provider")
-        private String provider;
-
-        @JsonProperty("benefit")
-        private String benefit;
-
-        @JsonProperty("statistics")
-        private Statistics statistics;
-
-        public String getProvider() {
-            return provider;
-        }
-
-        public void setProvider(String provider) {
-            this.provider = provider;
-        }
-
-        public String getBenefit() {
-            return benefit;
-        }
-
-        public void setBenefit(String benefit) {
-            this.benefit = benefit;
-        }
-
-        public Statistics getStatistics() {
-            return statistics;
-        }
-
-        public void setStatistics(Statistics statistics) {
-            this.statistics = statistics;
-        }
+    public String getBenefit() {
+        return benefit.get();
     }
 
-    @JsonIgnoreProperties(ignoreUnknown = true)
-    public static class Statistics {
-        @JsonProperty("provider-data")
-        private ProviderData providerData;
-
-        public ProviderData getProviderData() {
-            return providerData;
-        }
-
-        public void setProviderData(ProviderData providerData) {
-            this.providerData = providerData;
-        }
+    public void setBenefit(String benefit) {
+        this.benefit.set(benefit);
     }
 
-    @JsonIgnoreProperties(ignoreUnknown = true)
-    public static class ProviderData {
-        @JsonProperty("awaiting")
-        private int awaiting;
+    public IntegerProperty queueLengthProperty() {
+        return queueLength;
+    }
 
-        @JsonProperty("average-period")
-        private int averagePeriod;
+    public int getQueueLength() {
+        return queueLength.get();
+    }
 
-        public int getAwaiting() {
-            return awaiting;
-        }
+    public void setQueueLength(int queueLength) {
+        this.queueLength.set(queueLength);
+    }
 
-        public void setAwaiting(int awaiting) {
-            this.awaiting = awaiting;
-        }
+    public IntegerProperty waitingTimeProperty() {
+        return waitingTime;
+    }
 
-        public int getAveragePeriod() {
-            return averagePeriod;
-        }
+    public int getWaitingTime() {
+        return waitingTime.get();
+    }
 
-        public void setAveragePeriod(int averagePeriod) {
-            this.averagePeriod = averagePeriod;
-        }
+    public void setWaitingTime(int waitingTime) {
+        this.waitingTime.set(waitingTime);
     }
 }

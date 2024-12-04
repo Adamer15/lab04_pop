@@ -2,7 +2,7 @@
   "data": [
     {
       "type": "queue",
-      "id": "28439a16-c0d9-ef52-e063-b4200a0aa119",
+      "id": "2857b7ed-abb7-ee06-e063-b4200a0afbe8",
       "attributes": {
         "case": 1,
         "benefit": "PORADNIA STOMATOLOGICZNA DLA DZIECI",
@@ -47,7 +47,7 @@
     },
     {
       "type": "queue",
-      "id": "28439a17-1739-ef52-e063-b4200a0aa119",
+      "id": "2857b7ed-fc0f-ee06-e063-b4200a0afbe8",
       "attributes": {
         "case": 1,
         "benefit": "PORADNIA STOMATOLOGICZNA DLA DZIECI",
@@ -92,7 +92,7 @@
     },
     {
       "type": "queue",
-      "id": "28439a17-21a3-ef52-e063-b4200a0aa119",
+      "id": "2857b7ee-0813-ee06-e063-b4200a0afbe8",
       "attributes": {
         "case": 1,
         "benefit": "PORADNIA STOMATOLOGICZNA DLA DZIECI",
@@ -137,7 +137,7 @@
     },
     {
       "type": "queue",
-      "id": "28439a14-a0d5-ef52-e063-b4200a0aa119",
+      "id": "2857b7eb-848d-ee06-e063-b4200a0afbe8",
       "attributes": {
         "case": 1,
         "benefit": "FIZJOTERAPIA DOMOWA",
@@ -182,7 +182,7 @@
     },
     {
       "type": "queue",
-      "id": "28439a14-a0c3-ef52-e063-b4200a0aa119",
+      "id": "2857b7eb-a731-ee06-e063-b4200a0afbe8",
       "attributes": {
         "case": 1,
         "benefit": "PORADNIA POŁOŻNICZO-GINEKOLOGICZNA",
@@ -235,14 +235,14 @@
   },
   "meta": {
     "context": "https://api.nfz.gov.pl/app-itl-api/schemas/#queue",
-    "count": 1507,
+    "count": 1509,
     "title": "queue",
     "page": 1,
     "url": "https://api.nfz.gov.pl/app-itl-api/schema/queue",
     "limit": 5,
     "provider": "Narodowy Fundusz Zdrowia",
     "date-published": "2019-02-26T10:49:23+01:00",
-    "date-modified": "2024-12-02T23:27:28+01:00",
+    "date-modified": "2024-12-03T15:30:20+01:00",
     "description": "Zasób zwraca pierwszy dostępny termin leczenia dla każdego świadczenia medycznego zgodnie z wybranymi parametrami wyszukiwania. Odpowiedź zawiera szczegółowe informacje  oraz listę świadczeń medycznych we właściwej kolejności wyświetlania (według pierwszej dostępnego terminu leczenia)",
     "keywords": "kolejki,terminy leczenia,Narodowy Fundusz Zdrowia,termin,lekarz,poradnia,przychodnia,leczenie,terminy,wolne terminy",
     "language": "PL",

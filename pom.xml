@@ -8,6 +8,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <name>Lab04 Pop</name>
+
     <modules>
         <module>client</module>
         <module>gui</module>
@@ -16,7 +18,6 @@
     <build>
         <pluginManagement>
             <plugins>
-                <!-- Kompilator Maven dla wszystkich modułów -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
